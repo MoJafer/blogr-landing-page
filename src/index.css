@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+/* (CTA text) */
+.red-text {
+    color: hsl(356, 100%, 66%);
+}
+
+/* (CTA hover background) */
+.hover-red-light-bg {
+    color: hsl(355, 100%, 74%);
+}
+
+/* (headings) */
+.blue-dark-text {
+    color: hsl(208, 49%, 24%);
+}
+
+/* White (text) */
+.white-text {
+    color: hsl(0, 0%, 100%);
+}
+
+/* footer text */
+.blue-text {
+    color: hsl(240, 2%, 79%);
+}
+
+/* body copy */
+.blue-dark-text {
+    color: hsl(207, 13%, 34%);
+}
+
+/* footer background */
+.black-blue-bg {
+    color: hsl(240, 10%, 16%);
+}
+
+/* Background gradient - Intro/CTA mobile nav: */
+.red-bg {
+    background-color: hsl(353, 100%, 62%);
+}
+
+.red-light-bg {
+    background-color: hsl(13, 100%, 72%);
+}
+
+/* Background gradient - body: */
+.grey-blue-bg {
+    background-color: hsl(237, 17%, 21%);
+}
+
+.blue-bg {
+    background-color: hsl(237, 23%, 32%);
+}
